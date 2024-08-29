@@ -77,6 +77,7 @@ body{
   font-size: 40px;
   color: white;
 
+
 }
 
 
@@ -93,21 +94,50 @@ body{
   color: rgb(255, 253, 252);
   text-align: center;
   background-color: orangered;
-  padding: 5px;
+  padding: 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   margin: 5px;
+  font-size: large;
+  
 }
   .btn-2{
     color: white;
-    border-radius: 3px;
+    border-radius: 30px;
     text-align: center;
-    padding: 5px;
+    padding: 30px ;
     margin: 5px;
+    font-size: large;
   }
 
   
 /* banner section ends here */
+
+/* 2nd part starts here */
+
+.h5{
+  color: rgb(253, 252, 252);
+  font-size: 45px;
+  margin: 5rem ;
+  font-size: ;
+}
+.main-row{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* margin: 1rem 0; */
+  gap: 1 rem;
+}
+
+.row-div{
+position: relative;
+}
+
+
+.row-p{
+position: absolute;
+}
+
+
 
 
 
