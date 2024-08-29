@@ -7,6 +7,7 @@ body{
    *{
       margin:0 ;
       background-color: rgb(56, 55, 55);
+      padding: 0;
 
     }
 
@@ -85,7 +86,7 @@ body{
 
 .btn-primary{
   display: flex;
-  text-align: center;
+  text-align: center;b  
 }
 .btn-1{
   color: rgb(255, 253, 252);
