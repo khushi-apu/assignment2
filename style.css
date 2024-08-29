@@ -13,7 +13,7 @@ body{
 
     /* header */
     .header-container{
-      width: 1440px;
+      max-width: 1440px;
       margin: 0% auto;
 
     }
@@ -121,23 +121,93 @@ body{
   margin: 5rem ;
   font-size: ;
 }
-.main-row{
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  /* margin: 1rem 0; */
-  gap: 1 rem;
-}
 
 .row-div{
 position: relative;
+
 }
 
 
-.row-p{
+/* .row-p{
 position: absolute;
+} */
+
+
+.change-your-habit{
+
+  width: 1440px;
+  margin: 0% auto;
+  margin-top: 50px;
+  
+}
+
+.habit-text{
+  text-align: center;
+
+}
+
+.habit-title{
+  font-size: 48px;
+font-weight: 900;
+color: white;
+margin-bottom: 15px;
+}
+
+.habit-sub-title{
+  font-size: 14px;
+font-weight: 400;
+color:  rgba(255, 255, 255, 0.5);
+}
+
+.habit-img-container{
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 40px;
+}
+
+.habit-img {
+  text-align: center;
+}
+
+.habit-img img{
+  width: 250px;
+  height: 250px;
+border-radius: 50%;
+
+}
+
+.habit-img h5{
+  text-align: center;
+  color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+}
+.habit-img p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-top: 10px;
 }
 
 
+.run-extra-container{
+  width:1440px ;
+  margin: 0% auto;
+  border: 1px solid red;
+  margin-top:100px;
+  border-radius: 18px;
+background: rgb(34, 34, 34);
+display: flex;
+justify-content: space-between;
 
 
+}
+.run-img img{
+
+width: 366px;
+height: 312px;
+
+
+}
 
