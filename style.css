@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  font-family: "Inter", sans-serif;
+}
+
+/* default styles */
+   *{
+      margin:0 ;
+      background-color: rgb(56, 55, 55);
+
+    }
+
+    /* header */
+    .header-container{
+      width: 1440px;
+      margin: 0% auto;
+
+    }
+
+/* nav style starts here */
+
+
+.nav-container{
+  /* width: 90%; */
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  /* margin: 0 auto; */
+  margin-bottom: 50px;
+}
+
+.nav-div-2{
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  text-align: center;
+  color: white;
+}
+  
+.span1{
+  color: orangered;
+
+}
+/* main{
+  width: 1440px;
+  margin: 0% auto; */
+}
+/* nav style ends here */
+
+/* banner section starts here*/
+.h1{
+    
+  color: rgb(253, 252, 252);
+  font-size: 78px;
+  margin: 5rem ;
+}
+
+.span-2{
+  font-style: italic;
+}
+.banner-container{
+ 
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+
+}
+
+.banner-description {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  color: white;
+
+}
+
+
+.img-div{
+  margin: 20px 5rem;
+}
+
+
+.btn-primary{
+  display: flex;
+  text-align: center;
+}
+.btn-1{
+  color: rgb(255, 253, 252);
+  text-align: center;
+  background-color: orangered;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+  .btn-2{
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  
+/* banner section ends here */
+
+
+
